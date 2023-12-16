@@ -123,6 +123,9 @@ li {
     color: var(--white-color);
     background-color: var(--focus-hover);
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);;
 }
 .btn-first-p {
     background-color: var(--color-text);
@@ -138,6 +141,9 @@ li {
 }
 a.link:hover, a.link:focus {
     color: var(--focus-hover);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
  
 .linkcolor {
@@ -470,7 +476,7 @@ a.link:hover, a.link:focus {
     align-items: center;
     justify-content: center;
 }
-.web-icon:hover {
+.web-icon:hover, .web-icon:focus {
     background-color: var(--focus-hover);
 }
 .svg-platform {
@@ -504,12 +510,11 @@ a.link:hover, a.link:focus {
 }
 .flex-footer {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
+}
+.container-footer {
+
 }
 .flex-footer-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 0;
-    
+    gap: 120px;
 }
