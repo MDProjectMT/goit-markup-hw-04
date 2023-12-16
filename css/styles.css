@@ -447,19 +447,34 @@ a.link:hover, a.link:focus {
 
 .flex-platform {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 24px;
     padding-top: 8px
 }
 .icons-platform {
-    background-color: var(--color-text);
-    border-radius: 50%;
+    
+    
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;    
+}
+.web-icon {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-text);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.web-icon:hover {
+    background-color: var(--focus-hover);
+}
+.svg-platform {
+    fill: var(--color-background)
 }
 .icons-costumers {
     border: 1px solid var(--icon-color);
@@ -470,7 +485,23 @@ a.link:hover, a.link:focus {
     justify-content: center;
     align-items: center;
 }
-
+.web-customers {
+    width: 100%;
+    height: 100%;
+    color: var(--icon-color);
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-customers:hover, .web-customers:focus{
+    border-color: var(--focus-hover);
+    color: var(--focus-hover);
+}
+.svg-customer {
+    fill: currentColor;
+}
 .flex-footer {
     display: flex;
     gap: 120px;
