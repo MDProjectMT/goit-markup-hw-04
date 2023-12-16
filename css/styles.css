@@ -201,7 +201,7 @@ a.link:hover, a.link:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white-color);
-    padding: 24px 0;
+    margin-bottom: 16px;
 }
 .hdr {
     font-weight: 500;
@@ -455,17 +455,16 @@ a.link:hover, a.link:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 8px;
     gap: 24px;
-    padding-top: 8px
 }
 .icons-platform {
-    
-    
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;    
+    gap: 16px;
 }
 .web-icon {
     width: 100%;
@@ -483,6 +482,8 @@ a.link:hover, a.link:focus {
     fill: var(--color-background)
 }
 .icons-costumers {
+    width: 100%;
+    height: 100%;
     border: 1px solid var(--icon-color);
     border-radius: 4%;
     width: 168px;
@@ -511,10 +512,23 @@ a.link:hover, a.link:focus {
 .flex-footer {
     display: flex;
     align-items: baseline;
-}
-.container-footer {
-
-}
-.flex-footer-one {
     gap: 120px;
+}
+.icons-footer {
+    width: 100%;
+    height: 100%;
+        background-color: var(--color-text);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+            width: 40px;
+                height: 40px;
+}
+.platforms-footer {
+    display: flex;
+
+    gap: 16px;
+
+
 }
