@@ -483,8 +483,7 @@ a.link:hover, a.link:focus {
     fill: var(--color-background)
 }
 .icons-costumers {
-    width: 100%;
-    height: 100%;
+
     border: 1px solid var(--icon-color);
     border-radius: 4%;
     width: 168px;
