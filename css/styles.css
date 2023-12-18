@@ -433,10 +433,12 @@ a.link:hover, a.link:focus {
     border-top: none;
 }
 .div-app:hover, .div-app:focus {
+    border-color: var(--color-background);
+}
+.link-hf:hover, .link-hf:focus {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 1px 6px rgba(46, 47, 66, 0.08);
-    border-color: var(--color-background);
 }
 .section-p {
     padding: 96px 0 120px 0;
