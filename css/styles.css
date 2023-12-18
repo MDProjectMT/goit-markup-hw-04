@@ -142,9 +142,11 @@ li {
 }
 a.link:hover, a.link:focus {
     color: var(--focus-hover);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);;
+
+}
+a.link-c {
+    color: var(--focus-hover);
+
 }
  
 .linkcolor {
@@ -409,14 +411,11 @@ a.link:hover, a.link:focus {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-
 }
 .flex-p-img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid var(--button-color);
-    border-top: none;
     width: calc((100% - 48px) / 3);
     height: auto;
     background-color: var(--white-color);
@@ -478,6 +477,7 @@ a.link:hover, a.link:focus {
 }
 .web-icon:hover, .web-icon:focus {
     background-color: var(--focus-hover);
+    color: var(--focus-hover);
 }
 .svg-platform {
     fill: var(--color-background)
@@ -505,6 +505,9 @@ a.link:hover, a.link:focus {
 }
 .svg-customer {
     fill: currentColor;
+}
+.svg-customer:hover, .svg-customer:focus {
+    fill: var(--focus-hover);
 }
 .flex-footer {
     display: flex;
